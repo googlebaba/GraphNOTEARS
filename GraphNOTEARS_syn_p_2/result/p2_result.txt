@@ -1,0 +1,26 @@
+ n= 500 d= 5 s0= 5 w_graph_type = ER p_graph_type = ER sem_type = gauss
+-----model_p2-----
+W_est: threshold = 0.3 acc =  fdr = 0.0 tpr = 1.0 fpr = 0.0 shd = 0 nnz = 5  f1 = 1.0
+P1_est: threshold = 0.3 acc =  fdr = 0.3888888888888889 tpr = 0.6470588235294118 fpr = 0.875 shd = 9 nnz = 18  f1 = 0.6285714285714287
+P2_est: threshold = 0.3 acc =  fdr = 0.3333333333333333 tpr = 1.0 fpr = 0.6363636363636364 shd = 7 nnz = 21  f1 = 0.8
+-----notears + lasso-----
+W_est: threshold = 0.3 acc =  fdr = 0.42857142857142855 tpr = 0.8 fpr = 0.15 shd = 4 nnz = 7  f1 = 0.6666666666666666
+P1_est: threshold = 0.3 acc =  fdr = 0.2857142857142857 tpr = 0.8823529411764706 fpr = 0.75 shd = 7 nnz = 21  f1 = 0.7894736842105262
+P2_est: threshold = 0.3 acc =  fdr = 0.5238095238095238 tpr = 0.7142857142857143 fpr = 1.0 shd = 10 nnz = 21  f1 = 0.5714285714285714
+-----dynotears-----
+W_est: threshold = 0.3 acc =  fdr = 0.4444444444444444 tpr = 1.0 fpr = 0.2 shd = 4 nnz = 9  f1 = 0.7142857142857143
+P1_est: threshold = 0.3 acc =  fdr = 0.375 tpr = 0.5882352941176471 fpr = 0.75 shd = 9 nnz = 16  f1 = 0.6060606060606061
+P2_est: threshold = 0.3 acc =  fdr = 0.4 tpr = 0.21428571428571427 fpr = 0.18181818181818182 shd = 9 nnz = 5  f1 = 0.3157894736842105
+ n= 500 d= 5 s0= 5 w_graph_type = ER p_graph_type = ER sem_type = gauss
+-----model_p2-----
+W_est: threshold = 0.3 acc =  fdr = 0.0 tpr = 1.0 fpr = 0.0 shd = 0 nnz = 5  f1 = 1.0
+P1_est: threshold = 0.3 acc =  fdr = 0.0 tpr = 0.8125 fpr = 0.0 shd = 2 nnz = 13  f1 = 0.896551724137931
+P2_est: threshold = 0.3 acc =  fdr = 0.0 tpr = 0.5833333333333334 fpr = 0.0 shd = 4 nnz = 7  f1 = 0.7368421052631579
+-----notears + lasso-----
+W_est: threshold = 0.3 acc =  fdr = 0.5 tpr = 0.8 fpr = 0.2 shd = 5 nnz = 8  f1 = 0.6153846153846154
+P1_est: threshold = 0.3 acc =  fdr = 0.2777777777777778 tpr = 0.8125 fpr = 0.5555555555555556 shd = 6 nnz = 18  f1 = 0.7647058823529411
+P2_est: threshold = 0.3 acc =  fdr = 0.5625 tpr = 0.5833333333333334 fpr = 0.6923076923076923 shd = 12 nnz = 16  f1 = 0.5
+-----dynotears-----
+W_est: threshold = 0.3 acc =  fdr = 0.375 tpr = 1.0 fpr = 0.15 shd = 3 nnz = 8  f1 = 0.7692307692307693
+P1_est: threshold = 0.3 acc =  fdr = 0.5 tpr = 0.125 fpr = 0.2222222222222222 shd = 8 nnz = 4  f1 = 0.2
+P2_est: threshold = 0.3 acc =  fdr = 0.0 tpr = 0.08333333333333333 fpr = 0.0 shd = 10 nnz = 1  f1 = 0.15384615384615385
