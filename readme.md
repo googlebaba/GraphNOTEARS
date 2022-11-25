@@ -1,3 +1,6 @@
+# AAAI2023-GraphNOTEARS
+Source code for "Directed Acyclic Graph Structure Learning from Dynamic Graphs"
+
 pip install -r requirements.txt
 
 GraphNOTEARS_syn_p_1 is the dir for the one time-lagged experiments, shown in Figure 4 and 5.
